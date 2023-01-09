@@ -150,13 +150,13 @@ button{
 }
 
 footer{
-    padding-top: 60px;
-    height: 327px;
+    min-height: 327px;
     background: #C2D3EE;
     width: 100%;
 }
 
 .footer_wrapper{
+    background: #C2D3EE;
     height: 327px;
     display: flex;
     justify-content: space-between;
@@ -168,6 +168,7 @@ footer span{
 }
 
 footer ul{
+    background: #C2D3EE;
     list-style: none;
     text-align: right;
 }
@@ -179,6 +180,29 @@ footer a{
     color:#000000;
 }
 
+.icon_wrapper{
+    padding-left: 60px;
+}
+
+.footer_icon{
+    width: 20px;
+    height: 20px;    
+    margin-right: 5px;
+}
+
+footer .footer_icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
 .footer_part{
     line-height: 36px;
+    background: #C2D3EE;
+}
+
+.footer_part_1{
+    line-height: 36px;
+    width: 160px;
+    margin-right: 130px;
 }

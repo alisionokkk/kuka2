@@ -3,7 +3,8 @@
 }
 
 header{
-    position: absolute;
+    background: #f5f5f5;
+    position: fixed;
     width: 100%;
 }
 
@@ -16,25 +17,25 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 44px;
     margin-right: 30px;
 }
 
 a{
     font-weight: 400;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #000;
     text-decoration: none;
 }
 
 .header_menu{
     margin-right: 270px;
-    height: 70px;
+    height: 44px;
 }
 
 .header_elements{
     display: inline-block;
-    padding: 11px 25px 0;
+    padding: 0 25px 0;
 }
 
 header ul{
@@ -45,12 +46,19 @@ header ul{
 .first_introduction{
     margin: 0;
     height: 580px;
-    background:url("/src/img/third_page/1_bg.jpg")
+}
+
+.first_wrapper{
+    background: url("/src/img/third_page/1_bg.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    border-radius: 15px;
 }
 
 .first_links{
-    padding-top: 105px;
-    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: #000;
     margin-left: 25px;
 }
 
@@ -61,7 +69,7 @@ header ul{
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
-    color: #FFFFFF;
+    color: #fff;
     margin-bottom: 15px;
 }
 
@@ -69,7 +77,7 @@ header ul{
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: #FFFFFF;
+    color: #fff;
     width: 441px;
     margin-left: 140px;
     margin-bottom: 42px;
@@ -89,7 +97,7 @@ header ul{
     margin-left: 140px;
     width: 200px;
     height: 48px;
-    background: rgba(58, 119, 202, 0.6);
+    background: rgb(58, 119, 202);
     border-radius: 15px;
     font-weight: 400;
     font-size: 14px;
@@ -194,7 +202,7 @@ header ul{
         margin-left: 570px;
         width: 200px;
         height: 48px;
-        background: rgba(58, 119, 202, 0.6);
+        background: rgb(58, 119, 202);
         border-radius: 15px;
         font-weight: 400;
         font-size: 14px;
@@ -223,11 +231,11 @@ header ul{
 }
 
 .fifth button{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 570px;
     width: 200px;
     height: 48px;
-    background: rgba(58, 119, 202, 0.6);
+    background: rgb(58, 119, 202);
     border-radius: 15px;
     font-weight: 400;
     font-size: 14px;
@@ -289,7 +297,7 @@ color: #000000;
 }
 
 .sixth{
-    padding-bottom: 500px;
+    padding-bottom: 320px;
 }
 
 .fourth_about .second_img{
@@ -364,12 +372,13 @@ span{
 }
 
 footer{
-    width: 100%;
-    height: 327px;
+    min-height: 327px;
     background: #C2D3EE;
+    width: 100%;
 }
 
 .footer_wrapper{
+    background: #C2D3EE;
     height: 327px;
     display: flex;
     justify-content: space-between;
@@ -381,6 +390,7 @@ footer span{
 }
 
 footer ul{
+    background: #C2D3EE;
     list-style: none;
     text-align: right;
 }
@@ -388,10 +398,33 @@ footer ul{
 footer a{
     font-weight: 400;
     font-size: 16px;
+    line-height: 18px;
     color:#000000;
+}
+
+.icon_wrapper{
+    padding-left: 60px;
+}
+
+.footer_icon{
+    width: 20px;
+    height: 20px;    
+    margin-right: 5px;
+}
+
+footer .footer_icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
 }
 
 .footer_part{
     line-height: 36px;
+    background: #C2D3EE;
 }
 
+.footer_part_1{
+    line-height: 36px;
+    width: 160px;
+    margin-right: 130px;
+}
