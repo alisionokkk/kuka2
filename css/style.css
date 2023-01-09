@@ -42,7 +42,10 @@ header ul{
 }
 
 .first_banner{
-    margin-left: 60px;
+    padding-left: 180px;
+}
+
+.first_banner .container{
     background:url("/src/img/first_page/1_slide.jpg");
     height: 329px;
     background-repeat: no-repeat;
