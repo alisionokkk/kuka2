@@ -1,0 +1,150 @@
+*{
+    font-family: 'Inter';
+}
+
+header{
+    background: #f5f5f5;
+}
+
+section{
+    background: #f5f5f5;
+}
+
+.header_wrapper{
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-right: 30px;
+}
+
+a{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_menu{
+    margin-right: 270px;
+    height: 70px;
+}
+
+.header_elements{
+    display: inline-block;
+    padding: 11px 25px 0;
+}
+
+header ul{
+    margin: 0;
+    margin-top: 13px;
+}
+
+.first_links{
+    padding-top: 19px;
+}
+
+.first_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first_wrapper a{
+    display: inline-block;
+    width: 310px;
+    padding-top: 20px;
+}
+
+.first_img{
+    padding-bottom: 23px;
+}
+
+.first_text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.first_wrapper_2{
+    padding: 70px 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    height: 327px;
+    background: #C2D3EE;
+    width: 100%;
+}
+
+.footer_part{
+    line-height: 36px;
+}
+
+.footer_wrapper{
+    height: 327px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer span{
+    font-weight: 700;
+}
+
+footer ul{
+    list-style: none;
+    text-align: right;
+}
+
+footer a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color:#000000;
+}
+@media( max-width:1200px){
+    .header li{
+        padding: 8px;
+    }
+    .header .header_phone{
+        margin-left: 30px;
+    }
+}
+
+@media( max-width:900px){
+    .header li{
+        padding: 8px;
+    }
+    .header .header_phone{
+        margin-left: 30px;
+    }
+    *{
+        position: fixed;
+        top:0;
+        right: 0;
+        width: 50%;
+        height: 100vh;
+    }
+}
+
+@media( max-width:400px){
+    .header li{
+        padding: 8px;
+    }
+    .header .header_phone{
+        margin-left: 30px;
+    }
+    *{
+        position: fixed;
+        top:0;
+        right: 0;
+        width: 50%;
+        height: 100vh;
+    }
+}
