@@ -46,7 +46,7 @@ header ul{
 }
 
 .first_banner .container{
-    background:url("/src/img/first_page/1_bg.jpg");
+    background:url("/img/first_page/1_bg.jpg");
     height: 329px;
     background-repeat: no-repeat;
     color:#FFFFFF;
