@@ -22,7 +22,7 @@ section{
 a{
     font-weight: 400;
     font-size: 14px;
-    color: #000000;
+    color: #312A2A;
     text-decoration: none;
 }
 
@@ -41,12 +41,16 @@ header ul{
     margin-top: 13px;
 }
 
+.header_phone{
+    margin-left: 20px;
+}
+
 .text{
     display: inline-block;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    color: #000000;
+    color: #312A2A;
 }
 
 .first_introdaction{
@@ -80,7 +84,7 @@ span{
 h2{
     font-weight: 400;
     font-size: 30px;
-    color: #000000;
+    color: #312A2A;
 }
 
 .second_img{
@@ -98,6 +102,8 @@ h2{
 }
 
 .third_wrapper{
+    margin-right: 40px;
+    margin-left: 40px;
     margin-top: 81px;
     display: flex;
     justify-content: space-between;
@@ -113,7 +119,7 @@ h2{
     display: inline-block;
     font-weight: 500;
     font-size: 64px;
-    color: #000000;
+    color: #312A2A;
 }
 
 .third_text{
@@ -123,7 +129,7 @@ h2{
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
-    color: #000000;
+    color: #312A2A;
 }
 
 .fourth_wrapper{
@@ -233,7 +239,7 @@ h2{
     font-weight: 400;
     font-size: 16px;
     text-decoration-line: underline;
-    color: #000000;
+    color: #312A2A;
 }
 
 .seventh_enroll{
@@ -250,7 +256,7 @@ h2{
     padding-bottom: 50px;
     font-weight: 400;
     font-size: 24px;
-    color: #000000;
+    color: #312A2A;
 }
 
 .description .text{
@@ -291,17 +297,19 @@ footer a{
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    color:#000000;
+    color:#312A2A;
 }
 
 .icon_wrapper{
     padding-left: 60px;
+    margin-top: 20px;
 }
 
 .footer_icon{
     width: 20px;
     height: 20px;    
     margin-right: 5px;
+
 }
 
 footer .footer_icon{

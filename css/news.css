@@ -22,7 +22,7 @@ section{
 a{
     font-weight: 400;
     font-size: 14px;
-    color: #000000;
+    color: #312A2A;
     text-decoration: none;
 }
 
@@ -39,6 +39,10 @@ a{
 header ul{
     margin: 0;
     margin-top: 13px;
+}
+
+.header_phone{
+    margin-left: 20px;
 }
 
 .first_links{
@@ -58,14 +62,17 @@ header ul{
 }
 
 .first_img{
-    padding-bottom: 23px;
+    margin-bottom: 23px;
+    width: 308px;
+    height: 184px;
+    border-radius: 15px;
 }
 
 .first_text{
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
-    color: #000000;
+    color: #312A2A;
     margin-bottom: 20px;
 }
 
@@ -104,11 +111,13 @@ footer a{
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    color:#000000;
+    color:#312A2A;
 }
 
 .icon_wrapper{
     padding-left: 60px;
+    margin-top: 20px;
+
 }
 
 .footer_icon{
