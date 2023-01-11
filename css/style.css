@@ -49,6 +49,7 @@ header ul{
 
 .first_banner{
     background:url("/img/first_page/1_bg.jpg");
+    padding-top: 70px;
     height: 329px;
     width: 100%;
     background-repeat: no-repeat;
