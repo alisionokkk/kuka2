@@ -341,7 +341,7 @@ header ul{
 
 .fourth_about .text{
     display: inline-block;
-    width: 568px;
+    max-width: 568px;
     min-height: 240px;
 }
 
