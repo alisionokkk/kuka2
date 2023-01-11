@@ -336,7 +336,7 @@ header ul{
 
 .fourth_about .second_img{
     float: right;
-    margin-left: 150px;
+    margin: 0 auto;
 }
 
 .fourth_about .text{
@@ -388,8 +388,8 @@ span{
 }
 
 .third_text{
+    width: 400px;
     margin-left: 15px;
-    max-width: 400px;
     display: inline-block;
     font-weight: 300;
     font-size: 16px;
@@ -397,15 +397,21 @@ span{
     color: #312A2A;
 }
 
+.fourth_about .wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 .fourth_about h2{
-    display: inline-block;
-    margin-right: 300px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #312A2A;
+    padding-top: 40px;
 }
 
 .first_img{
-    float: right;
-    margin-left:700px;
-    padding-bottom: 30px;
+    display: inline-block;
 }
 
 footer{
@@ -615,7 +621,8 @@ footer .footer_icon{
 .seventh .name{
     display: block;
     margin: 30px auto;
-    width: 130px;
+    max-width: 200px;
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
     color: #312A2A;
@@ -635,7 +642,7 @@ footer .footer_icon{
 .seventh .start{
     display: block;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 70px;
     width: 200px;
     height: 48px;
     background: rgb(58, 119, 202);
@@ -660,8 +667,9 @@ footer .footer_icon{
 }
 
 .ninth_price .text{
+    margin: 0 auto;
     margin-top: 50px;
-    margin-left: 354px;
+    margin-left: 15%;
     font-family: 'Inter';
     font-weight: 300;
     font-size: 16px;
@@ -670,7 +678,6 @@ footer .footer_icon{
 }
 
 .ninth_price button{
-    margin-top: 50px;
     display: block;
     margin: 0 auto;
     width: 200px;
@@ -685,6 +692,7 @@ footer .footer_icon{
     text-align: center;
     color: #F5F5F5;
 }
+
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
 @media screen and (max-width: 992px) { div.contentblock {width: 970px;} }

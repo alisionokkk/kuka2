@@ -8,6 +8,8 @@ section{
 
 header{
     background: #f5f5f5;
+    position: fixed;
+    width: 100%;
 }
 
 .header_wrapper{
@@ -71,7 +73,7 @@ header ul{
 
 .second_wrapper{
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
 .second_article{
@@ -92,7 +94,6 @@ header ul{
 .text{
     display: inline-block;
     margin: 48px 0;
-    width: 70%;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
@@ -103,6 +104,7 @@ header ul{
     max-width: 50%;
     margin: 0 auto;
     margin-top: 80px;
+    text-align: center;
 }
 
 button a{
@@ -159,22 +161,10 @@ button{
     padding-bottom: 100px;
 }
 
-.description h3{
-    padding-top: 40px;
-    margin-bottom: 50px;
-    font-weight: 400;
-    font-size: 24px;
-    color: #312A2A;
-}
-
-.description .text{
-    min-height: 136px;
-    line-height: 19px;
-    margin: 0;
-}
-
-.description{
-    padding-bottom: 93px;
+.third_wrapper img{
+    border-radius: 15px;
+    width: 290px;
+    height: 432px;
 }
 
 footer{
