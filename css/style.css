@@ -92,6 +92,8 @@ h2{
     border-radius: 15px;
 }
 
+
+
 .third_wrapper .text{
     padding-top: 29px;
     width: 292px;
@@ -99,14 +101,13 @@ h2{
 }
 
 .third_enroll a.third_enroll_link{
-    display: inline-block;
-    width: 193px;
+    float: right;
     padding-top: 30px;
     font-weight: 400;
     font-size: 16px;
     text-decoration-line: none;
     color: #312A2A;
-    margin-left: 639px;
+    text-align-last: right;
 }
 
 .third_enroll{
@@ -135,6 +136,7 @@ h2{
     display: inline-block;
     width: 568px;
     min-height: 240px;
+    margin-bottom: 70px;
 }
 
 span{
@@ -142,19 +144,17 @@ span{
 }
 
 .fourth_about a{
-    display: inline-block;
-    margin-top: 75px;
-    margin-left: 1210px;
+    float: right;
     font-weight: 400;
     font-size: 16px;
-    text-align: right;
+    text-align-last: right;
     text-decoration-line: underline;
     color: #312A2A;
-    margin-bottom: 80px;
 }
 
 .next{
     padding-bottom: 40px;
+    margin-top: 40px;
 }
 
 .fifth_command .container{
@@ -229,11 +229,13 @@ span{
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .seventh_wrapper a{
     display: inline-block;
     width: 311px;
+    margin-bottom: 70px;
 }
 
 .seventh_wrapper img{
@@ -241,11 +243,12 @@ span{
 }
 
 .news{
-    display: inline-block;
-    margin-left: 1130px;
-    padding-top: 90px;
+    float: right;
     text-decoration: underline;
-    padding-bottom: 90px;
+}
+
+.description h2{
+    padding-top: 70px;
 }
 
 .description h3{
@@ -323,4 +326,17 @@ footer .footer_icon{
     line-height: 36px;
     width: 160px;
     margin-right: 130px;
+}
+
+@media screen and (max-width: 1280px){ 
+    div.contentblock {width: 1200px;}
+    *{overflow-x: hidden;
+        max-width: 100%;}
+} 
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} 
+    *{overflow-x: hidden;
+        max-width: 100%;}} 
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} 
+    *{overflow-x: hidden;
+        max-width: 100%;}
 }

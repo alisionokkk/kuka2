@@ -36,6 +36,16 @@ a{
     padding: 11px 25px 0;
 }
 
+.wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    overflow-x: hidden;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 40px;
+}
+
 .header_phone{
     margin-left: 20px;
 }
@@ -45,27 +55,27 @@ header ul{
     margin-top: 13px;
 }
 
-.first_map{
-    padding-top: 30px;
-    padding-bottom: 100px;
-}
-
 .first_links{
     margin-bottom: 72px;
 }
 
 .first_img{
     float: right;
-    margin-right: 200px;
     border-radius:15px;
+    overflow-x: hidden;
+    max-width: 450px;
+    max-height: 450px;
+    padding-bottom: 20px;
 }
 
 .text{
-    margin-left: 120px;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #000;
+    display: inline-block;
+    margin-right: 70px;
+    padding-bottom: 20px;
 }
 
 span{
@@ -73,7 +83,8 @@ span{
 }
 
 .first_icons{
-    margin-top: 66px;
+    width: 319px;
+    height: 121px;
 }
 
 footer{
@@ -134,3 +145,7 @@ footer .footer_icon{
     width: 160px;
     margin-right: 130px;
 }
+
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }

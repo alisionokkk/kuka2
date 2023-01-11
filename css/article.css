@@ -59,10 +59,15 @@ header ul{
 }
 
 .first img{
-    width: 600px;
+    width: 50%;
     height: 300px;
     float: left;
     border-radius: 15px;
+}
+
+.second_wrapper{
+    margin: 0 auto;
+    width: 70%;
 }
 
 .second_article{
@@ -71,7 +76,6 @@ header ul{
 
 .second_article h2{
     display: inline-block;
-    margin-left: 50px;
     text-align: center;
     font-style: 24px;
 }
@@ -80,13 +84,10 @@ header ul{
     margin-bottom: 100px;
 }
 
-.second_wrapper{
-    margin-left: 270px;
-    width: 670px;
-}
-
 .text{
+    display: inline-block;
     margin: 48px 0;
+    width: 70%;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
@@ -94,11 +95,15 @@ header ul{
 }
 
 .wrapper_buttons{
+    max-width: 50%;
+    margin: 0 auto;
     margin-top: 80px;
-    margin-left: 170px;
+
 }
 
 button a{
+    text-align: center;
+
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
@@ -108,32 +113,34 @@ button a{
 }
 
 button{
+    text-align: center;
+
     background: none;
     border: 0;
-    margin-right: 59px;
+    margin-right: 5px;
 }
 
 .second_img{
-    margin-left: 110px;
-    display: inline-block;
-    margin-top: 20px;    
-    width: 450px;
-    height: 450px;
+    margin-top: 20px;
+    display: inline-block;    
+    width: inherit;
 }
 
 .third_wrapper{
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .third_wrapper .text{
+    display: block;
     margin-top: 29px;
     width: 292px;
 }
 
 .third_enroll a.third_enroll_link{
-    display: inline-block;
+    float: right;
     width: 193px;
     text-align: right;
     margin-top: 60px;
