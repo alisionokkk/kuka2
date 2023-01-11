@@ -45,24 +45,28 @@ header ul{
     margin-top: 13px;
 }
 
+.first{
+    width: 100%;
+    height: 562px;
+    background: url("/img/fifth_page/1_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .first h2{
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     text-align: center;
-    font-style: 24px;
-    width: 300px;
-    margin-left: 40px;
+    width: 70%;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 10%;
 }
 
 .first{
     padding-top: 50px;
     padding-bottom: 150px;
-}
-
-.first img{
-    width: 50%;
-    height: 300px;
-    float: left;
-    border-radius: 15px;
 }
 
 .second_wrapper{
@@ -71,7 +75,8 @@ header ul{
 }
 
 .second_article{
-    padding-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .second_article h2{
@@ -81,7 +86,7 @@ header ul{
 }
 
 .second_links{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .text{
@@ -98,12 +103,10 @@ header ul{
     max-width: 50%;
     margin: 0 auto;
     margin-top: 80px;
-
 }
 
 button a{
     text-align: center;
-
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
@@ -114,7 +117,6 @@ button a{
 
 button{
     text-align: center;
-
     background: none;
     border: 0;
     margin-right: 5px;
@@ -141,14 +143,16 @@ button{
 
 .third_enroll a.third_enroll_link{
     float: right;
-    width: 193px;
-    text-align: right;
     margin-top: 60px;
-    margin-left: 1140px;
     font-weight: 400;
     font-size: 16px;
     text-decoration-line: underline;
     color: #312A2A;
+    margin-right: 3%;
+}
+
+.third_element{
+    margin: 0 auto;
 }
 
 .third_enroll{
@@ -171,7 +175,6 @@ button{
 
 .description{
     padding-bottom: 93px;
-    padding-left: 96px;
 }
 
 footer{

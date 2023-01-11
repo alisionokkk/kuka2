@@ -57,6 +57,7 @@ header ul{
 
 .first_wrapper a{
     display: inline-block;
+    margin: 0 auto;
     width: 310px;
     padding-top: 20px;
 }
