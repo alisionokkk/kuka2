@@ -149,8 +149,8 @@ header ul{
 .third_what .container .third_block{
     background: #C2D3EE;
     border-radius: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-bottom: 100px;
 }
 
@@ -166,8 +166,8 @@ header ul{
 
 .third_what .text{
     display: inline-block;
-    margin-left: 20%;
-    width: 70%;
+    margin-left: 10%;
+    width: 80%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
@@ -254,6 +254,8 @@ header ul{
     float: right;
     margin-left: 5%;
     margin-right:5%;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .fifth button{
@@ -272,8 +274,12 @@ header ul{
     color: #F5F5F5;
 }
 
+.fifth ol{
+    margin-top: 15px;
+}
+
 .fifth li{
-    width: 65%;
+    max-width: 75%;
     font-weight: 300;
     font-size: 16px;
     line-height: 28px;
@@ -365,36 +371,27 @@ span{
     padding-bottom: 118px;
 }
 
-.third_wrapper{
-    margin-top: 35px;
+.third_principles ol{
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
-.third_element{
-    margin: 0 auto;
-    margin-bottom: 50px;
-    height: 96px;
-}
-
-.third_number{
-    display: inline-block;
-    font-weight: 500;
-    font-size: 64px;
-    color: #312A2A;
-}
-
-.third_text{
-    width: 400px;
-    margin-left: 15px;
-    display: inline-block;
+.third_principles li{
+    margin-bottom: 40px;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #312A2A;
+    min-width: 46%;
+    max-width: 420px;
+}
+
+.third_principles li::marker{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
 }
 
 .fourth_about .wrapper{

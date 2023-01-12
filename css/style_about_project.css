@@ -64,9 +64,11 @@ header ul{
     float: left;
     margin-right: 5%;
     max-width: 564px;
+    max-height: 564px;
     overflow: hidden;
     text-align: center;
     border-radius: 15px;
+    margin-bottom: 5px;
 }
 
 .first_links{
@@ -103,6 +105,9 @@ h2{
 
 .second_img{
     float: right;
+    max-width: 564px;
+    max-height: 564px;
+    overflow: hidden;
 }
 
 .second_mission .text{
@@ -115,36 +120,27 @@ h2{
     padding-bottom: 118px;
 }
 
-.third_wrapper{
-    margin-top: 35px;
+.third_principles ol{
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
-.third_element{
-    margin: 0 auto;
-    margin-bottom: 50px;
-    height: 96px;
-}
-
-.third_number{
-    display: inline-block;
-    font-weight: 500;
-    font-size: 64px;
-    color: #312A2A;
-}
-
-.third_text{
-    width: 400px;
-    margin-left: 15px;
-    display: inline-block;
+.third_principles li{
+    margin-bottom: 40px;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #312A2A;
+    min-width: 46%;
+    max-width: 420px;
+}
+
+.third_principles li::marker{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
 }
 
 .fourth_wrapper{
@@ -156,8 +152,9 @@ h2{
 .fourth_element{
     margin-bottom: 25px;
     border-radius: 15px;
-    width: 420px;
+    max-width: 420px;
     height: 420px;
+    overflow: hidden;
 }
 
 .fourth_meetings h2{
@@ -167,7 +164,8 @@ h2{
 .fifth_element{
     display: flex;
     justify-content: space-between;
-    padding-left: 85px;
+    flex-wrap: wrap;
+    padding-left: 5%;
     padding-bottom: 110px;
 }
 
@@ -186,19 +184,19 @@ h2{
 }
 
 .fifth_img{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
     border-radius: 15px;
-    width: 350px;
-    height: 350px;
-}
+    max-width: 350px;
+    overflow: hidden;}
 
 .fifth_command .fifth_text{
     background-color: #F4F3F8;
-    padding-left: 109px;
-    padding-right: 70px;
-}
-
-.fifth_command .text{
-    width: 618px;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 618px;
+    margin: 0 auto;
 }
 
 .fifth_command span{
@@ -245,6 +243,7 @@ h2{
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .seventh_wrapper .text{
@@ -253,6 +252,7 @@ h2{
     padding-bottom: 62px;
     font-size: 16px;
     line-height: 19px;
+    display: block;
 }
 
 .seventh_element span{
@@ -260,11 +260,11 @@ h2{
 }
 
 .seventh_enroll a.seventh_enroll_link{
-    display: inline-block;
     width: 193px;
     text-align: right;
     margin-top: 60px;
-    margin-left: 1140px;
+    float: right;
+    margin-right: 3%;
     font-weight: 400;
     font-size: 16px;
     text-decoration-line: underline;
@@ -275,15 +275,14 @@ h2{
     padding-bottom: 100px;
 }
 
-.seventh_wrapper{
-    display: flex;
-    justify-content: space-between;
-}
-
 .seventh_wrapper img{
     border-radius: 15px;
     width: 290px;
     height: 432px;
+}
+
+.seventh_element{
+    margin: 0 auto;
 }
 
 .description h3{
@@ -363,6 +362,12 @@ footer .footer_icon{
     margin-right: 130px;
 }
 
-@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} 
+
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
-@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} 
+.third_principles li::marker{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 77px;
+}} }

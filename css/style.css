@@ -175,9 +175,9 @@ span{
 .fifth_wrapper{
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 2%;
     flex-wrap: wrap;
-    margin-right: 30px;
+    margin-right: 2%;
 }
 
 .fifth_command .text{
@@ -193,11 +193,18 @@ span{
     font-weight: 600;
 }
 
+.fifth_element{
+    margin: 0 auto;
+}
+
 .fifth_command img{
     margin-bottom: 32px;
-    width: 350px;
-    height: 350px;
+    display: inline-block;
+    max-width: 350px;
+    overflow: hidden;
+    max-height: 350px;
     border-radius: 15px;
+    text-align: center;
 }
 
 .sixth_clients{
