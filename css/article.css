@@ -73,7 +73,7 @@ header ul{
 
 .second_wrapper{
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
 }
 
 .second_article{
@@ -86,6 +86,8 @@ header ul{
     text-align: center;
     font-style: 24px;
 }
+
+
 
 .second_links{
     margin-bottom: 50px;
@@ -101,8 +103,8 @@ header ul{
 }
 
 .wrapper_buttons{
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: 40%;
+    margin-left: 23%;
     margin-top: 80px;
     text-align: center;
 }
@@ -125,9 +127,11 @@ button{
 }
 
 .second_img{
+    margin-left: 15%;
     margin-top: 20px;
     display: inline-block;    
     width: inherit;
+
 }
 
 .third_wrapper{
@@ -138,14 +142,19 @@ button{
 }
 
 .third_wrapper .text{
-    display: block;
-    margin-top: 29px;
     width: 292px;
+    padding-bottom: 62px;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+}
+
+.third_element span{
+    font-weight: 600;
 }
 
 .third_enroll a.third_enroll_link{
     float: right;
-    margin-top: 60px;
     font-weight: 400;
     font-size: 16px;
     text-decoration-line: underline;

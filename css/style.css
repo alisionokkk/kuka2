@@ -47,19 +47,9 @@ header ul{
     margin-left: 20px;
 }
 
-.first_banner{
-    background:url("/img/first_page/1_bg.jpg");
-    padding-top: 70px;
-    height: 329px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size:cover;
-    color:#FFFFFF;
-}
-
 .first_banner h2{
-    color:#FFFFFF;
-}
+    padding-top: 120px;
+    color: #312A2A;}
 
 button{
     margin-top: 40px;
@@ -105,14 +95,23 @@ h2{
     padding-top: 20px;
     width: 292px;
     padding-bottom: 62px;
+    font-size: 16px;
+    line-height: 19px;
 }
 
-.third_enroll a.third_enroll_link{
+.third_element span{
+    font-weight: 600;
+}
+
+.third_enroll button{
     font-weight: 400;
     font-size: 16px;
-    text-decoration-line: none;
     color: #312A2A;
     margin-left: 50%;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    background: none;
 }
 
 .third_enroll{
@@ -206,7 +205,11 @@ span{
     padding-bottom: 50px;
 }
 
-.sixth_clients .container{
+.sixth_clients h2{
+    padding-bottom: 20px;
+}
+
+.sixth_clients .wr{
     background-color: #FFFFFF;
     border-radius: 20px;
     padding-left: 10px;
@@ -409,14 +412,16 @@ footer .footer_icon{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 50px;
+    width: 34px;
+    height: 67px;
     color: #fff;
     text-align: center;
-    background: rgb(0 0 0 / 20%);
     border: none;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     cursor: pointer;
+    background: none;
+    margin-right: 2%;
+    margin-left: 2%;
   }
   
   .itc-slider__btn_hide {
@@ -428,14 +433,12 @@ footer .footer_icon{
   }
   
   .itc-slider__btn_next {
-    right: 0;
-  }
+right: 0;  }
   
   .itc-slider__btn:hover,
   .itc-slider__btn:focus {
     color: #fff;
     text-decoration: none;
-    background: rgb(0 0 0 / 30%);
     outline: 0;
   }
   
