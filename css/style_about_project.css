@@ -1,4 +1,4 @@
-*{color:#312a2a;font-family:"Inter"}h2{font-weight:400;font-size:24px;margin:0 auto;padding-bottom:40px; text-align: center;}section{background:#f5f5f5;padding-bottom:115px}a{color:#312a2a;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header .header_elements{display:inline-block;padding:24px 25px 0}header nav{margin-right:20%}header header ul{height:70px;margin:0}header .header_phone{margin-left:15px}header .header_icon{width:20px;height:20px;margin-right:5px}.button_start{width:200px;height:48px;margin:0 auto;background:#3a77ca;border-radius:15px;font-weight:400;font-size:14px;border:0;margin-top:40px;text-align:center;color:#f5f5f5}.entry .entry_wrapper{display:flex;justify-content:space-between;flex-wrap:wrap}.entry .entry_element{margin:0 auto;padding-bottom:40px;width:300px}.entry .entry_wrapper img{border-radius:15px;width:290px;height:432px;text-align:center;margin-bottom:20px}.entry a{line-height:19px;font-weight:300}.entry .entry_wrapper span{font-weight:600}.about .about_wrapper{display:flex;justify-content:space-around;flex-wrap:wrap}.about img{max-width:400px;max-height:400px;text-align:center;margin-bottom:20px;border-radius: 15px}.about .about_text{display:inline-block;max-width:600px;font-weight:300}.about span{font-weight:500}.clients .clients_wrapper{padding-top:30px;display:flex;justify-content:space-between;flex-wrap:wrap;background-color:#fff;border-radius:15px;align-items:center}.clients_icon{min-width:10%; float: right;text-align: right;max-width: 250px;padding-bottom:30px;margin:0 auto}.clients .clients_wrapper img{display:block;margin:0 auto; max-width: 250px;}footer{min-height:250px;background:#c2d3ee;width:100%;font-weight:400;font-size:14px;line-height:20px}footer .footer_wrapper{min-height:250px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}footer ul{list-style:none;text-align:right}footer a{font-size:14px;line-height:20px}footer .footer_icon_wrapper{width:65px;margin:0 auto;margin-top:20px}footer .footer_icon{width:30px;height:30px}footer .footer_block{margin-right:70px;}
+*{color:#312a2a;font-family:"Inter"}h2{font-weight:400;font-size:24px;margin:0 auto;padding-bottom:40px; text-align: center;}section{background:#f5f5f5;padding-bottom:115px}a{color:#312a2a;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header .header_elements{display:inline-block;padding:24px 25px 0}header nav{margin-right:20%}header header ul{height:70px;margin:0}header .header_phone{margin-left:15px}header .header_icon{width:20px;height:20px;margin-right:5px}.button_start{width:200px;height:48px;margin:0 auto;background:#3a77ca;border-radius:15px;font-weight:400;font-size:14px;border:0;margin-top:40px;text-align:center;color:#f5f5f5}.entry .entry_wrapper{display:flex;justify-content:space-between;flex-wrap:wrap}.entry .entry_element{margin:0 auto;padding-bottom:40px;width:300px}.entry .entry_wrapper img{border-radius:15px;width:290px;height:432px;text-align:center;margin-bottom:20px}.entry a{line-height:19px;font-weight:300}.entry .entry_wrapper span{font-weight:600}.about .about_wrapper{display:flex;justify-content:space-around;flex-wrap:wrap}.about img{max-width:400px;max-height:400px;text-align:center;margin-bottom:20px;border-radius: 15px}.about .about_text{display:inline-block;max-width:600px;font-weight:300}.about span{font-weight:500}.clients .clients_wrapper{padding-top:30px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}.clients_icon{min-width: 20%;max-width: 21%; float: right;text-align: right;padding-bottom:30px;margin:0 auto}.clients .clients_wrapper img{display:block;margin:0 auto; max-width: 125px;max-height: 125px;}footer{min-height:250px;background:#c2d3ee;width:100%;font-weight:400;font-size:14px;line-height:20px}footer .footer_wrapper{min-height:250px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}footer ul{list-style:none;text-align:right}footer a{font-size:14px;line-height:20px}footer .footer_icon_wrapper{width:65px;margin:0 auto;margin-top:20px}footer .footer_icon{width:30px;height:30px}footer .footer_block{margin-right:70px;}
 .about{
     padding-top: 130px;
     padding-bottom: 95px;
@@ -9,8 +9,6 @@
     text-decoration-line: underline;
     font-weight: 400;
 }
-
-
 .text{
     display: inline-block;
     font-weight: 300;
@@ -19,13 +17,14 @@
     color: #312A2A;
 }
 
-.second_mission h2{
-    max-width: 300px;
+.entry{
+    padding-top: 40px;
 }
 
-.second_mission .container{
+.second_mission .mission_block{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -48,9 +47,13 @@
     font-weight: 300;
 }
 
-.third_principles ol{
+.third_principles{    
     background: #C2D3EE;
     padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.third_principles ol{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -68,6 +71,9 @@
     min-width: 40%;
     max-width: 400px;
 }
+.fourth_meetings h2{
+    padding-top: 75px;
+}
 
 .fourth_wrapper{
     display: flex;
@@ -76,30 +82,31 @@
 }
 
 .fourth_element{
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     border-radius: 15px;
     max-width: 320px;
     height: 320px;
     overflow: hidden;
 }
 
-.fourth_meetings h2{
-    display: inline-block;
-}
-
 .fifth_element{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 110px;
+    padding-bottom: 50px;
     align-items: center;
 }
 
 .fifth_name{
     padding-bottom: 40px;
-    padding-top: 50px;
+    padding-top: 10px;
 }
+.clients{
+    padding-top: 40px;
+    background-color:#fff;
+    padding-bottom: 40px;
 
+  }
 .fifth_img{
     margin: 0 auto;
     text-align: center;
@@ -111,10 +118,13 @@
 .fifth_command .fifth_text{
     display: inline;
     background: #C2D3EE;
-    max-width: 618px;
-    margin: 0 auto;
+    max-width: 100%;
+    border-radius:15px;
     padding: 20px;
-    border-radius:15px
+}
+
+.fifth_command .text{
+    max-width: 578px;
 }
 
 .fifth_command{
