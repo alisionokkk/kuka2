@@ -124,7 +124,12 @@ span{
     .fixed-pade {
         overflow: hidden;
     }
+    .text{
+      text-align: center;
+    }
+
     footer .footer_wrapper div{
+      padding-top: 15px;
       display: block;
       width: 100%;
       margin: 0 auto;

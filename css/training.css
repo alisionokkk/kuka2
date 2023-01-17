@@ -663,6 +663,8 @@ will-change: transform;
         overflow: hidden;
     }
     footer .footer_wrapper div{
+      padding-top: 15px;
+
       display: block;
       width: 100%;
       margin: 0 auto;

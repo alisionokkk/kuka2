@@ -108,6 +108,8 @@ width: 190px;
     }
     footer .footer_wrapper div{
       display: block;
+      padding-top: 15px;
+
       width: 100%;
       margin: 0 auto;
       padding-bottom: 15px;
@@ -117,5 +119,10 @@ width: 190px;
       display: block;
       width: 100%;
       text-align: center;
+    }
+    .news .news_wrapper a:hover {
+      -webkit-transform: none;
+      -ms-transform: none;
+      transform: none;
     }
     }
