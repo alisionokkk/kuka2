@@ -6,6 +6,15 @@
  * @license MIT (https://github.com/itchief/ui-components/blob/master/LICENSE)
  * @tutorial https://itchief.ru/javascript/slider
  */
+
+$(document).ready(function() {
+	$('.menu-burger__header').click(function(){
+        $('.menu-burger__header').toggleClass('open-menu');
+        $('.header__nav').toggleClass('open-menu');
+        $('body').toggleClass('fixed-page');
+	});
+});
+
 class ItcSlider {
   static #EL_WRAPPER = 'wrapper';
   static #EL_ITEMS = 'items';
@@ -436,3 +445,4 @@ class ItcSlider {
 }
 
 ItcSlider.createInstances();
+

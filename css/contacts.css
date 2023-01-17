@@ -1,4 +1,4 @@
-*{color:#312a2a;font-family:"Inter"}h2{font-weight:400;font-size:24px;margin:0 auto;padding-bottom:60px; text-align: center;}section{background:#f5f5f5;padding-bottom:115px}a{color:#312a2a;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header .header_elements{display:inline-block;padding:24px 25px 0}header nav{margin-right:20%}header header ul{height:70px;margin:0}header .header_phone{margin-left:15px}header .header_icon{width:20px;height:20px;margin-right:5px}footer{min-height:250px;background:#c2d3ee;width:100%;font-weight:400;font-size:14px;line-height:20px}footer .footer_wrapper{min-height:250px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}footer ul{list-style:none;text-align:right}footer a{font-size:14px;line-height:20px}footer .footer_icon_wrapper{width:65px;margin:0 auto;margin-top:20px;margin-right: 40px;}footer .footer_icon{width:30px;height:30px}footer .footer_block{margin-right:70px;}
+*{color:#312a2a;font-family:"Inter"}h2{font-weight:400;font-size:24px;margin:0 auto;padding-bottom:60px; text-align: center;}section{background:#f5f5f5;padding-bottom:115px}a{color:#312a2a;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header ul li{display:inline-block;padding:24px 25px 0}header nav{margin-right:20%}header header ul{height:70px;margin:0}header .header_phone{margin-left:1%}header .header_icon{width:20px;height:20px;margin-right:5px}footer{min-height:250px;background:#c2d3ee;width:100%;font-weight:400;font-size:14px;line-height:20px}footer .footer_wrapper{min-height:250px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}footer ul{list-style:none;text-align:right}footer a{font-size:14px;line-height:20px}footer .footer_icon_wrapper{width:65px;margin:0 auto;margin-top:20px;margin-right: 40px;}footer .footer_icon{width:30px;height:30px}footer .footer_block{margin-right:70px;}
 
 .wrapper{
     display: flex;
@@ -10,7 +10,9 @@
     margin-right: 15%;
     margin-left: 15%;
 }
-
+.linkss{
+  width: 190px;
+}
 .first_img{
     overflow: hidden;
     border-radius:15px;
@@ -34,3 +36,105 @@ span{
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
 @media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
+@media(max-width: 767px){
+  .header_icon{
+    display: inline-block;
+    max-width: 15px;
+    max-height: 15px;
+  }
+  .header_phone{
+    font-size: 12px;
+}
+    .header__nav {
+      display: block;
+      position: absolute;
+        top: 55px;
+        left: 0;
+        background: rgb(245, 246, 246);
+        box-shadow: #ccc;
+        width: 100%;
+        box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
+        transition: all 0.4s ease;
+        left:-100%;
+    }
+    .header__menu {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    .header__nav.open-menu{
+        left:0;
+    }
+    .header__menu li {
+      text-align: center;
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 0;
+      margin: 0;
+      font-size: 14px;
+      }
+    .menu-burger__header {
+      position: relative;
+        width: 40px;
+        height: 35px;
+        display: block;
+        margin-left: 10px;
+       }
+    .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+      height: 3px;
+      width: 100%;
+      position: absolute;
+      background: #515758;
+      margin: 0 auto;
+    }
+    .menu-burger__header span{
+      top: 16px;
+    }
+    .menu-burger__header:after, .menu-burger__header:before{
+      content: '';
+    }
+    .menu-burger__header:after{
+      bottom: 5px;
+    }
+    .menu-burger__header:before{
+      top: 5px;
+    }
+    .menu-burger__header.open-menu span {
+      opacity:0; 
+        transition: 0.5s; 
+    }
+    .menu-burger__header.open-menu:before {
+      transform: rotate(38deg);
+        top: 16px;
+        transition: 0.4s;
+    }
+    .menu-burger__header.open-menu:after {
+      transform: rotate(-38deg);
+        bottom: 16px;
+        transition: 0.4s;
+    }
+    header{
+      max-height: 180px;
+    }
+  
+    .entry{
+      padding-top: 0;
+        margin-top: 70px;
+    }
+    .fixed-pade {
+        overflow: hidden;
+    }
+    footer .footer_wrapper div{
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 15px;
+      text-align: center;
+    }
+    footer ul{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    
+    }
