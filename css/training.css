@@ -1,4 +1,4 @@
-*{color:#312a2a;font-family:"Inter"}h2{font-weight:400;font-size:24px;margin:0 auto;padding-bottom:40px; text-align: center;}section{background:#f5f5f5;padding-bottom:115px}a{color:#312a2a;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header .header_elements{display:inline-block;padding:24px 25px 0}header nav{margin-right:20%}header header ul{height:70px;margin:0}header .header_phone{margin-left:15px}header .header_icon{width:20px;height:20px;margin-right:5px}.button_start{width:200px;height:48px;margin:0 auto;background:#3a77ca;border-radius:15px;font-weight:400;font-size:14px;border:0;margin-top:40px;text-align:center;color:#f5f5f5}.about .about_wrapper{display:flex;justify-content:space-around;flex-wrap:wrap}.about img{max-width: 400px;max-height:450px;text-align:center;border-radius: 15px}.about .about_text{display:inline-block;max-width:600px;font-weight:300;margin-bottom:20px}.about span{font-weight:500}.about a{-webkit-text-decoration-line:underline;text-decoration-line:underline;float: right;padding-top: 40px;}.news .news_wrapper{display:flex;justify-content:space-between;flex-wrap:wrap}.news .news_wrapper a{display:inline-block;width:310px;margin:0 auto;margin-bottom:30px;font-weight:300}.news .news_wrapper img{margin-bottom:20px;height:240px;border-radius:15px;width:310px}.news .news_next{float:right;text-decoration:underline;font-weight:400}footer{min-height:250px;background:#c2d3ee;width:100%;font-weight:400;font-size:14px;line-height:20px}footer .footer_wrapper{min-height:250px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}footer ul{list-style:none;text-align:right}footer a{font-size:14px;line-height:20px}footer .footer_icon_wrapper{width:65px;margin:0 auto;margin-top:20px}footer .footer_icon{width:30px;height:30px}footer .footer_block{margin-right:70px;}
+*{color:#312a2a;font-family:"Inter"}h2{font-weight:400;font-size:24px;margin:0 auto;padding-bottom:60px; text-align: center;}section{background:#f5f5f5;padding-bottom:115px}a{color:#312a2a;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header .header_elements{display:inline-block;padding:24px 25px 0}header nav{margin-right:20%}header header ul{height:70px;margin:0}header .header_phone{margin-left:15px}header .header_icon{width:20px;height:20px;margin-right:5px}.button_start{width:200px;height:48px;margin:0 auto;background:#3a77ca;border-radius:15px;font-weight:400;font-size:14px;border:0;margin-top:40px;text-align:center;color:#f5f5f5}.about .about_wrapper{display:flex;justify-content:space-around;flex-wrap:wrap}.about img{max-width: 400px;max-height:450px;text-align:center;border-radius: 15px}.about .about_text{display:inline-block;max-width:600px;font-weight:300;margin-bottom:20px}.about span{font-weight:500}.about a{-webkit-text-decoration-line:underline;text-decoration-line:underline;float: right;padding-top: 40px;}.news .news_wrapper{display:flex;justify-content:space-between;flex-wrap:wrap}.news .news_wrapper a{display:inline-block;width:310px;margin:0 auto;margin-bottom:30px;font-weight:300}.news .news_wrapper img{margin-bottom:20px;height:240px;border-radius:15px;width:310px}.news .news_next{float:right;text-decoration:underline;font-weight:400}footer{min-height:250px;background:#c2d3ee;width:100%;font-weight:400;font-size:14px;line-height:20px}footer .footer_wrapper{min-height:250px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}footer ul{list-style:none;text-align:right}footer a{font-size:14px;line-height:20px}footer .footer_icon_wrapper{width:65px;margin:0 auto;margin-top:20px;margin-right: 40px;}footer .footer_icon{width:30px;height:30px}footer .footer_block{margin-right:70px;}
 
 .first_introduction{
     margin: 0;
@@ -10,13 +10,6 @@
 
 .first_wrapper{
     padding-bottom: 70px;
-}
-
-.first_links{
-    padding-top: 70px;
-    padding-bottom: 30px;
-    color: #312A2A;
-    margin-left: 25px;
 }
 
 .first_introduction h2{
@@ -107,12 +100,8 @@
     color: #484848;
 }
 
-.third_what .container .third_block{
+.third_what{
     background: #C2D3EE;
-    border-radius: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 100px;
 }
 
 .third_what h2{
@@ -122,27 +111,26 @@
 }
 
 .third_what .text{
-    margin: 0 auto;
-    display: block;
-    width: 80%;
-    max-width: 667px;
-    text-align: center;
+    max-width: 523px;
+    text-align: left;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
     color: #312A2A;
+
 }
 .all{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.third_block img{
-    float: right;
-    margin-right: 15px;
+.third_what img{
+    margin-left: 25px;
+    border-radius: 15px;
 }
 
 .fourth .wrapper{
@@ -157,10 +145,22 @@
     line-height: 19px;
     color: #312A2A;
     margin-bottom: 70px;
+    min-height: 117px;
 }
 
 .fourth span{
     font-weight: 600;
+    font-size: 18px;
+}
+
+.wra{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fourth h2{
+    padding-top: 40px;
 }
 
 .fourth button{
@@ -183,16 +183,15 @@
 .fifth h2{
     text-align: center;
     color: #312A2A;
-    margin-bottom: 60px;
 }
 
 
 .fifth img{
-    float: right;
-    margin-left: 5%;
-    margin-right:5%;
     margin-bottom: 15px;
     text-align: center;
+    margin-left: 15px;
+    width: 400px;
+    border-radius: 15px;
 }
 
 .fifth button{
@@ -210,9 +209,50 @@
     text-align: center;
     color: #F5F5F5;
 }
+.fifth_element{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    align-items: center;
+}
 
+.sixth_element{
+    background: #C2D3EE;
+    width: 100%;
+}
+
+.about h2{
+    padding-top: 40px;
+}
+
+.fifth_name{
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.fifth_img{
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    max-width: 400px;
+    border-radius:180px}
+.fifth_text{
+    display: inline;
+    background: #C2D3EE;
+    max-width: 100%;
+    border-radius:15px;
+    padding: 20px;
+}
+
+.fifth_command .text{
+    max-width: 578px;
+}
+
+.fifth_command span{
+    font-weight: 600;
+}
 .fifth li{
-    max-width: 75%;
+    max-width:523px;
     font-weight: 300;
     font-size: 14px;
     line-height: 28px;
@@ -220,8 +260,6 @@
 }
 
 .sixth h2{
-    width: 280px;
-    display: inline-block;
     color: #312A2A;
 }
 
@@ -237,12 +275,12 @@
 }
 
 .sixth h3{
-    margin-top: 100px;
+    margin-top: 50px;
     font-weight: 300;
     font-size: 14px;
     line-height: 19px;
     color: #312A2A;
-    margin-bottom: 94px;
+    margin-bottom: 40px;
     display: inline-block;
 }
 
@@ -260,7 +298,7 @@
 
 .sixth .img{
     float: left;
-    border-radius:15px
+    border-radius:180px
 }
 
 
@@ -478,23 +516,36 @@
     color: #F5F5F5;
 }
 
+.ninth_price{
+    background: #fff
+}
+
 .ninth_price h2{
+    padding-top: 40px;
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 30px;
     text-align: center;
     color: #312A2A;
 }
 
 .ninth_price .text{
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-left: 15%;
     font-family: 'Inter';
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
     color: #312A2A;
+}
+
+.wra{
+    display: flex;
+    justify-content: center;
+}
+
+.ninth_price img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: 25px;
 }
 
 .ninth_price button{
