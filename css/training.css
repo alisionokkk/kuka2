@@ -719,6 +719,9 @@ will-change: transform;
     .third_what h2{
       padding-top: 0;
     }
+    .about{
+      padding-bottom: 90px;
+    }
     footer .footer_wrapper div{
       padding-top: 15px;
 
