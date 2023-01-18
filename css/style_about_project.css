@@ -9,12 +9,13 @@
  width: 190px;
   }
   .entry a:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
 .entry a.entry_link{
+  padding-top: 30px;
     width: 185px;
     float: right;
     text-decoration-line: underline;
@@ -29,7 +30,12 @@
 }
 
 .entry{
-    padding-top: 40px;
+    padding-top: 115px;
+}
+
+.second_mission{
+  padding-top: 115px;
+  background: #fff;
 }
 
 .second_mission .mission_block{
@@ -61,8 +67,7 @@
 
 .third_principles{    
     background: #C2D3EE;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 115px;
 }
 
 .third_principles ol{
@@ -102,7 +107,7 @@
 
 .fifth_element{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 50px;
     align-items: center;
@@ -113,18 +118,17 @@
     padding-top: 10px;
 }
 .clients{
-    padding-top: 40px;
+    padding-top: 115px;
     background-color:#fff;
-    padding-bottom: 40px;
 
   }
 .fifth_img{
     margin: 0 auto;
     text-align: center;
-    overflow: hidden;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px;
+    height: 300px;
     border-radius:180px;
+    overflow: hidden;
     margin: 15px;}
 
 
@@ -169,6 +173,11 @@
 
 }}
 @media(max-width: 767px){
+  
+  .container{
+    padding-left: 3px;
+    padding-right: 3px;
+  }
   .entry a:hover {
     -webkit-transform: none;
     -ms-transform: none;
@@ -273,4 +282,17 @@
     .clients_icon{
       min-width: 140px;
     }
+    .fifth_img{
+      max-width:250px;
+      max-height: 250px;
+    }
+    .fourth_element{
+      max-width: 150px;
+      height: 150px;
+      margin-bottom: 10px;
+  }
+
+  .about img, .second_img{
+    border-radius: 0;
+  }
     }

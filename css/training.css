@@ -48,7 +48,7 @@
 }
 
 .first_introduction button{
-    margin-top: 25px;
+    margin-top: 60px;
     margin-left: 5%;
     width: 200px;
     height: 48px;
@@ -65,8 +65,7 @@
 
 .third_principles{    
     background: #C2D3EE;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 115px;
 }
 .second_icons{
     padding-top: 100px;
@@ -109,7 +108,7 @@
 }
 
 .third_what h2{
-    padding-top: 51px;
+    padding-top: 115px;
     text-align: center;
     color: #312A2A;
 }
@@ -151,12 +150,12 @@
   
 
     max-width: 560px;
-
+    min-height: 115px;
     font-weight: 300;
     font-size: 14px;
     line-height: 19px;
     color: #312A2A;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     min-width: 45%;
 }
 
@@ -180,7 +179,7 @@
     margin: 0 auto;
     width: 200px;
     height: 48px;
-    margin-top: 50px;
+    margin-top: 90px;
 
     background: rgb(58, 119, 202);
     border-radius: 15px;
@@ -199,22 +198,27 @@
 
 
 .fifth img{
-  display: inline-block;;
-    margin-bottom: 15px;
-    text-align: center;
-    margin-left: 15px;
-    max-width: 400px;
-    max-height: 400px;
-    overflow: hidden;
-    border-radius: 15px;
+  padding-top: 25px;
+display: inline-block;
+text-align: center;
+margin-bottom: 15px;
+text-align: center;
+margin-left: 15px;
+max-width: 400px;
+height: 400px;
+overflow: hidden;
+border-radius: 15px;
 }
-
+.fifth_img{
+  max-width:250px;
+  max-height: 250px;
+}
 .fifth button{
     display: block;
     margin: 0 auto;
     width: 200px;
     height: 48px;
-    margin-top: 70px;
+    margin-top: 90px;
     background: rgb(58, 119, 202);
     border-radius: 15px;
     font-weight: 400;
@@ -225,8 +229,10 @@
     color: #F5F5F5;
 }
 .fifth_element{
+  margin: 0 auto;
+  width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 50px;
     align-items: center;
@@ -235,10 +241,11 @@
 .sixth_element{
     background: #C2D3EE;
     width: 100%;
+
 }
 
 .about h2{
-    padding-top: 40px;
+    padding-top: 115px;
 }
 
 .fifth_name{
@@ -246,10 +253,10 @@
     padding-top: 10px;
 }
 .fifth_img{
-  margin: 0 auto;
-  text-align: center;
+  text-align: right;
   overflow: hidden;
-  max-width: 400px;
+  max-width: 300px;
+  height: 300px;
   border-radius:180px;
   margin-bottom: 10px;}
 .fifth_text{
@@ -257,7 +264,7 @@
   background: #C2D3EE;
   max-width: 100%;
   border-radius:15px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .fifth_command .text{
@@ -509,11 +516,15 @@ will-change: transform;
     padding-bottom: 30px;
 }
 
+.ninth_price .wra{
+  align-items: center;
+}
+
 
 .seventh .start{
     display: block;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 90px;
     width: 200px;
     height: 48px;
     background: rgb(58, 119, 202);
@@ -530,7 +541,8 @@ will-change: transform;
 }
 
 .ninth_price h2{
-    padding-top: 40px;
+    padding-top: 115px;
+    padding-bottom: 35px;
     font-family: 'Inter';
     font-weight: 400;
     text-align: center;
@@ -546,6 +558,7 @@ will-change: transform;
 }
 
 .ninth_price img{
+  margin-top: 20px;
     max-width: 400px;
     max-height: 400px;
     border-radius: 15px;
@@ -561,7 +574,7 @@ will-change: transform;
     display: block;
     margin: 0 auto;
     width: 200px;
-    margin-top: 50px;
+    margin-top: 90px;
     height: 48px;
     background: rgb(58, 119, 202);
     border-radius: 15px;
@@ -577,6 +590,32 @@ will-change: transform;
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
 @media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
 @media(max-width: 767px){
+  section{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container{
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .wra{
+    width: 100%;
+  }
+  .fifth img{
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .third_what{
+    padding-bottom: 80px;
+  }
+  .third_what img{
+    margin-top: 15px;
+  }
     .header_icon{
         display: inline-block;
         max-width: 15px;
@@ -654,7 +693,9 @@ will-change: transform;
     header{
       max-height: 180px;
     }
-  
+    .ninth_price img{
+      border-radius:0
+    }
     .entry{
       padding-top: 0;
         margin-top: 70px;
