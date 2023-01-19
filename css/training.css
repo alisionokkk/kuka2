@@ -1,11 +1,48 @@
-*{color:#312a2a;font-family:"Inter"}h2{font-weight:400;font-size:24px;margin:0 auto;padding-bottom:60px; text-align: center; text-transform: uppercase;}section{background:#f5f5f5;padding-bottom:115px}a{color:#312a2a;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header ul li{display:inline-block;padding:24px 25px 0}header nav{margin-right:20%}header header ul{height:70px;margin:0}header .header_phone{margin-left:1%}header .header_icon{width:20px;height:20px;margin-right:5px}.button_start{width:200px;height:48px;margin:0 auto;background:#3a77ca;border-radius:15px;font-weight:400;font-size:14px;border:0;margin-top:40px;text-align:center;color:#f5f5f5}.about .about_wrapper{display:flex;justify-content:space-around;flex-wrap:wrap}.about img{max-width: 400px;max-height:400px;text-align:center;border-radius: 15px;overflow: hidden;}.about .about_text{display:inline-block;max-width:600px;font-weight:300;margin-bottom:20px}.about span{font-weight:500}.about a{-webkit-text-decoration-line:underline;text-decoration-line:underline;float: right;padding-top: 40px;}.news .news_wrapper{display:flex;justify-content:space-between;flex-wrap:wrap}.news .news_wrapper a{display:inline-block;width:310px;margin:0 auto;margin-bottom:30px;font-weight:300}.news .news_wrapper img{margin-bottom:20px;height:240px;border-radius:15px;width:310px}.news .news_next{float:right;text-decoration:underline;font-weight:400}footer{min-height:250px;background:#c2d3ee;width:100%;font-weight:400;font-size:14px;line-height:20px}footer .footer_wrapper{min-height:250px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}footer ul{list-style:none;text-align:right}footer a{font-size:14px;line-height:20px}footer .footer_icon_wrapper{width:65px;margin:0 auto;margin-top:20px;margin-right: 40px; text-align: center;}footer .footer_icon{width:30px;height:30px}footer .footer_block{margin-right:70px;}
 
+@font-face {
+  font-family: 'GillSans';
+  src: local('Gill Sans Light'), local('Gill-Sans-Light'),
+      url('../fonts/GillSansLightC.woff2') format('woff2'),
+      url('../fonts/GillSansLightC.woff') format('woff'),
+      url('../fonts/GillSansLightC.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+*{color:#312a2a;font-family:"GillSans"}h2{font-weight:400;font-size:30px;margin:0 auto;padding-bottom:60px; text-align: center; text-transform: uppercase;}section{background:#f5f5f5;padding-bottom:115px}a{color:#312a2a;font-weight:400;font-size:16px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header ul li{display:inline-block;padding:24px 25px 0}header nav{margin-right:20%}header header ul{height:70px;margin:0}header .header_phone{margin-left:1%}header .header_icon{width:20px;height:20px;margin-right:5px}.button_start{display: block;width:200px;height:48px;margin:0 auto;background:#3a77ca;border-radius:15px;font-weight:400;font-size:16px;border:0;margin-top:90px;text-align:center;color:#f5f5f5}.about .about_wrapper{display:flex;justify-content:space-around;flex-wrap:wrap}.about img{max-width: 400px;max-height:400px;text-align:center;border-radius: 15px;overflow: hidden;}.about .about_text{display:inline-block;max-width:600px;font-weight:300;margin-bottom:20px}.about span{font-weight:500}.about a{-webkit-text-decoration-line:underline;text-decoration-line:underline;float: right;padding-top: 40px;}.news .news_wrapper{display:flex;justify-content:space-between;flex-wrap:wrap}.news .news_wrapper a{display:inline-block;width:310px;margin:0 auto;margin-bottom:30px;font-weight:300}.news .news_wrapper img{margin-bottom:20px;height:240px;border-radius:15px;width:310px}.news .news_next{float:right;text-decoration:underline;font-weight:400}footer{min-height:150px;background:#c2d3ee;width:100%;font-weight:400;font-size:16px;line-height:20px}footer .footer_wrapper{min-height:150px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}footer ul{list-style:none;text-align:right}footer a{font-size:16px;line-height:20px}footer .footer_icon_wrapper{width:65px;margin:0 auto;margin-top:20px;margin-right: 40px; text-align: center;}footer .footer_icon{width:30px;height:30px}footer .footer_block{margin-right:70px;}
+.button_start a{
+  color:#F5F5F5
+}
+
+.fourth_meetings{
+background:#fff
+}
+
+.fourth_wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+
+.fourth_element{
+  margin-bottom: 25px;
+  border-radius: 15px;
+  max-width: 280px;
+  height: 280px;
+  overflow: hidden;
+}
 .first_introduction{
     margin: 0;
     height: 580px;
-    background: url("/img/third_page/1_bg.jpg");
+
     background-repeat: no-repeat;
     background-size:cover
+}
+.f{
+  background: url("/img/Group\ 1\ \(1\).jpg");
+}
+
+.s{
+  background: url("/img/Group\ 1.jpg");
 }
 .linkss{width: 190px;
   }
@@ -18,7 +55,7 @@
     text-align: left;
     padding-top: 100px;
     padding-left: 5%;
-    font-family: 'Inter';
+    font-family: 'GillSans';
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
@@ -39,27 +76,17 @@
 }
 
 .first_introduction p{
-    font-family: 'Inter';
+    font-family: 'GillSans';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     padding-left: 5%;
 }
 
 .first_introduction button{
-    margin-top: 60px;
-    margin-left: 5%;
-    width: 200px;
-    height: 48px;
-    background: rgb(58, 119, 202);
-    border-radius: 15px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    border: 0;
-    text-align: center;
-    color: #F5F5F5;
+margin-top: 20px;
+margin-left: 5%;
 }
 
 
@@ -116,10 +143,10 @@
 .third_what .text{
     max-width: 600px;
     text-align: left;
-    font-family: 'Inter';
+    font-family: 'GillSans';
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #312A2A;
 
@@ -142,17 +169,14 @@
 }
 
 .fourth .wrapper{
-    display: inline-block
-
+display: inline-block
 }
 
 .fourth .element{
-  
-
     max-width: 560px;
     min-height: 115px;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 19px;
     color: #312A2A;
     margin-bottom: 40px;
@@ -174,29 +198,10 @@
     padding-top: 40px;
 }
 
-.fourth button{
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 48px;
-    margin-top: 90px;
-
-    background: rgb(58, 119, 202);
-    border-radius: 15px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    border: 0;
-    text-align: center;
-    color: #F5F5F5;
-}
-
 .fifth h2{
     text-align: center;
     color: #312A2A;
 }
-
-
 .fifth img{
   padding-top: 25px;
 display: inline-block;
@@ -212,21 +217,6 @@ border-radius: 15px;
 .fifth_img{
   max-width:250px;
   max-height: 250px;
-}
-.fifth button{
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 48px;
-    margin-top: 90px;
-    background: rgb(58, 119, 202);
-    border-radius: 15px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    border: 0;
-    text-align: center;
-    color: #F5F5F5;
 }
 .fifth_element{
   margin: 0 auto;
@@ -280,7 +270,7 @@ border-radius: 15px;
 .fifth li{
   max-width:523px;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 28px;
   color: #312A2A;
 }
@@ -303,7 +293,7 @@ border-radius: 15px;
 .sixth h3{
   margin-top: 50px;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 19px;
   color: #312A2A;
   margin-bottom: 40px;
@@ -316,7 +306,7 @@ border-radius: 15px;
 
 .sixth .text{
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 19px;
   color: #312A2A;
   max-width: 500px;
@@ -344,7 +334,7 @@ border-radius: 15px;
 .third_principles li{
   margin-bottom: 60px;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 19px;
   color: #312A2A;
   max-width:350px;
@@ -489,7 +479,7 @@ will-change: transform;
 .seventh .text{
     display: block;
     width: 70%;
-    font-family: 'Inter';
+    font-family: 'GillSans';
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
@@ -510,7 +500,7 @@ will-change: transform;
     max-width: 200px;
     text-align: center;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: #312A2A;
 }
 
@@ -525,22 +515,6 @@ will-change: transform;
   align-items: center;
 }
 
-
-.seventh .start{
-    display: block;
-    margin: 0 auto;
-    margin-top: 90px;
-    width: 200px;
-    height: 48px;
-    background: rgb(58, 119, 202);
-    border-radius: 15px;
-    font-weight: 400;
-    font-size: 14px;
-    border: 0;
-    text-align: center;
-    color: #F5F5F5;
-}
-
 .ninth_price{
     background: #fff
 }
@@ -548,7 +522,7 @@ will-change: transform;
 .ninth_price h2{
     padding-top: 115px;
     padding-bottom: 35px;
-    font-family: 'Inter';
+    font-family: 'GillSans';
     font-weight: 400;
     text-align: center;
     color: #312A2A;
@@ -557,7 +531,7 @@ will-change: transform;
 .ninth_price .text{
   font-family: "Arial";
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #312A2A;
 }
@@ -572,23 +546,8 @@ will-change: transform;
 }
 
 .ninth_price span{
-  font-weight: 900;
-}
-
-.ninth_price button{
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    margin-top: 90px;
-    height: 48px;
-    background: rgb(58, 119, 202);
-    border-radius: 15px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    border: 0;
-    text-align: center;
-    color: #F5F5F5;
+  font-weight: 700;
+  font-family: "Arial";
 }
 
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
@@ -646,6 +605,9 @@ will-change: transform;
     }
     .header__nav.open-menu{
         left:0;
+    }
+    h2{
+      font-size: 24px;
     }
     .header__menu li {
       text-align: center;
@@ -735,6 +697,16 @@ will-change: transform;
       display: block;
       width: 100%;
       text-align: center;
+    }
+    .fifth{
+    padding-top: 50px;}
+    .sixth{
+      padding-top: 70px;
+      padding-bottom: 0;
+    }
+    .ninth_price{
+      padding-bottom: 0;
+      padding-top: 70px;
     }
     }
 
