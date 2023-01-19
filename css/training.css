@@ -705,8 +705,8 @@ will-change: transform;
       padding-bottom: 0;
     }
     .ninth_price{
-      padding-bottom: 0;
-      padding-top: 70px;
+      padding-bottom: 70px;
+      padding-top: 0;
     }
     }
 
