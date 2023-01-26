@@ -14,7 +14,9 @@
 }
 .fourth_meetings{
 background:#fff
-}
+}.entry{padding-bottom:40px;padding-top:40px}.entry .entry_wrapper{display:flex;justify-content:space-between;flex-wrap:wrap}.entry .entry_wrapper a{margin:0 auto;max-width:310px;min-width: 290px;font-weight:300; background:url("../img/3.jpg"); height: 210px;background-size: cover;margin-bottom: 40px;color:#fff;padding: 15px;}.entry span{font-weight:600;color:#fff;}.entry a.entry_link{padding:0;float:right;text-decoration-line:underline}
+.entry a.sec{background:url("../img/7.jpg")}
+.entry a.none{background:none}
 .fourth_wrapper{
   display: flex;
   justify-content: space-around;
@@ -207,6 +209,22 @@ border-radius: 15px;
   max-width:250px;
   max-height: 250px;
 }
+.otz{
+  max-width: 300px;
+}
+.otzq h2{
+  padding-top: 40px;
+}
+.otz_text{
+  background:#FCE691;
+  border-radius:15px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.otz img{
+  border-radius: 15px;
+}
+.otz_text span{font-weight: 600}
 .fifth_element{
   margin: 0 auto;
   width: 90%;
@@ -325,6 +343,14 @@ background: #fff
 .ninth_price span{
   font-weight: 700;
   font-family: "Arial";
+}
+.wra{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.video{
+  max-width: 300px;
 }
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
