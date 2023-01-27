@@ -140,22 +140,16 @@ span{
     .text{
       text-align: center;
     }
-
-    footer .footer_wrapper div{
-      padding-top: 15px;
-      display: block;
-      width: 100%;
-      margin: 0 auto;
-      padding-bottom: 15px;
-      text-align: center;
+    footer nav{
+      display: none;
     }
-    footer ul{
-      display: block;
-      width: 100%;
-      text-align: center;
+    .j{
+      display: none;
     }
+    .footer_block{margin: 0 auto;}
     .container{
       padding-left: 9px;
       padding-right: 9px;
     }
+    .linkss{display: none;}
     }

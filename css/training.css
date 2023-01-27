@@ -223,6 +223,10 @@ border-radius: 15px;
 }
 .otz img{
   border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 216px;
 }
 .otz_text span{font-weight: 600}
 .fifth_element{
@@ -516,5 +520,7 @@ background: #fff
   .j{
     display: none;
   }
+  .footer_block{margin: 0 auto;}
+  .linkss{display: none;}
     }
 
