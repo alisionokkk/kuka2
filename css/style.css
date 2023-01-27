@@ -15,6 +15,7 @@ header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{displ
 .linkss{
 width: 190px;
 }
+.about h2{padding-top: 40px;}
 .entry a.sec{background:url("../img/7.jpg")}
 .news h2{
   padding-top: 40px;
